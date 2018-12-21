@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Pocetna</title>
+        <script src = "pocetna.js"></script>
+        <link rel="stylesheet" href="style.css">   
+    </head>
+
+    <body onload="inicijalizacija()">
+        <div class="slika_pocetna">
+            <img src="pocetna.jpg">
+        </div>
+
+        <div class="informacije">
+            <i>Za dodatne informacije molimo vas da nas pozovete na broj 034/123-456</i>
+            <span class="dugme_reset">
+                <input type="button" id="reset" value="Reset" onclick="Reset()">
+        </div>
+            </span>
+        
+        <div class="lokacija">
+            <p class="ime">
+            <span>
+            <img src="location.png" class="slika_lokacija">
+            </span>
+            <a href="pocetna.html"> Početna</a>
+            </p>
+        </div>
+        
+        <form name="myForm" class="ulogovanje">
+                <label>Username: <input name="uname" type="text" placeholder="Enter Username"></label><br/><br/>
+                <label>Password: <input name="pwd" type="Password" placeholder="Enter Password"></label><br/><br/>
+                <input type="button" id="login" value="Login" onclick="Login()">
+        </form>
+    </body>
+</html>

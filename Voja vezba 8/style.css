@@ -1,0 +1,67 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.informacije
+{
+    text-align: center;
+    position: relative;
+    background-color: #D3D3D3;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+#reset
+{
+    background-color: #f44336;
+    color: white;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-right: -110px;
+    margin-top: -10px;
+    padding: 11px 26px;
+    border: none;
+    border-radius: 6px;
+    float: right;
+}
+
+div.lokacija
+{
+    display:inline;
+}
+
+img.slika_lokacija
+{
+    position: relative;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+p.ime
+{
+    
+    margin-bottom: 10px;
+}
+
+.ulogovanje
+{
+    position: relative;
+    text-align: center;
+}
+
+#login
+{
+    background-color: limegreen;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    padding: 11px 26px;
+    border: none;
+    border-radius: 6px;
+}

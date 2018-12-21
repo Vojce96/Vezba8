@@ -1,0 +1,24 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacije
+{
+    text-align: center;
+    position: relative;
+    background-color: #D3D3D3;
+    margin: 8px 10px 10px;
+    padding: 11px 26px;
+}
+
+.naziv
+{
+    color: #1E90FF;
+}
+
+a
+{
+    text-decoration: none;
+    color: #1E90FF;
+}

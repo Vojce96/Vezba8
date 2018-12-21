@@ -1,0 +1,47 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacije
+{
+    text-align: center;
+    position: relative;
+    background-color: #D3D3D3;
+    margin: 8px 10px 10px;
+    padding: 11px 26px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+.tabela
+{
+    border-collapse: collapse;
+    position: absolute;
+    text-align: center;
+    width: 700px;
+    margin-left:30%; 
+    margin-right:30%;
+  }
+  
+  th, td
+  {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #rezervisi_it, #rezervisi_en
+  {
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    padding: 11px 26px;
+    border: none;
+    border-radius: 6px;
+  }

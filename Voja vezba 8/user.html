@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>User</title>
+        <script src = "user.js"></script>
+        <link rel="stylesheet" href="style_user.css">   
+    </head>
+
+    <body onload="Sacuvaj()">
+        <div class="slika_pocetna">
+            <img src="pocetna.jpg">
+        </div>
+
+        <div class="informacije">
+            <i class="natpis">Za dodatne informacije molimo vas da nas pozovete na broj 034/123-456</i><br/>
+        </div>
+        
+        <div class="pocetna_user">
+            <p>
+            <img src="location.png" class="slika_lokacija">
+            <a href="pocetna.html"> Pocetna </a> / 
+            <a href="user.html"> User </a>
+            </p>
+        </div>
+    <div id="rezervacija">
+    <table class="tabela">
+        <tr>
+            <th>Grad</th>
+            <th>Država</th>
+            <th>Rezervacija</th>
+        </tr>
+
+        <tr >
+            <td>Rim</td>
+            <td id="italija">Italija</td>
+            <td><input type="button" name="rez_it" id="rezervisi_it" value="Rezerviši" onclick="Sacuvaj()"></td>
+        </tr>
+        
+        <tr>
+            <td>London</td>
+            <td id="engleska">Engleska</td>
+            <td><input type="button" name="rez_en" id="rezervisi_en" value="Rezerviši" onclick="Sacuvaj()"></td>
+        </tr>
+    </table>
+</div>
+    </body>
+</html>
